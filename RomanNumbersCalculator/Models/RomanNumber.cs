@@ -113,7 +113,7 @@ namespace RomanNumbersCalculator.Models
         public int CompareTo(object? o)
         {
             if (o is RomanNumber romanNumber) return number.CompareTo(romanNumber.number);
-            else throw new RomanNumberException("Некорректное значение параметра");
+            else throw new RomanNumberException("#ERROR");
         }
         public object Clone()
         {
