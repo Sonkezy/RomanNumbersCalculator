@@ -1,0 +1,39 @@
+﻿<Styles xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Design.PreviewWith>
+        <Border Padding="20">
+            <!-- Add Controls for Previewer Here -->
+			<Button>L</Button>
+        </Border>
+    </Design.PreviewWith>
+
+    <!-- Add Styles Here -->
+	<Style Selector="Button">
+		<Setter Property="FontSize" Value="24"/>
+		<Setter Property="Foreground" Value="Black" />
+		<Setter Property="BorderThickness" Value="2" />
+		<Setter Property="Background" Value="LightGray" />
+		<Setter Property="BorderBrush" Value="DarkGray" />
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="Margin" Value="0"/>
+	</Style>
+	<Style Selector="Button:pressed /template/ ContentPresenter">
+		<Setter Property="Background" Value="Red"/>
+	</Style>
+	<Style Selector="TextBox">
+		<Setter Property="FontSize" Value="24"/>
+		<Setter Property="Foreground" Value="Black" />
+		<Setter Property="BorderThickness" Value="2" />
+		<Setter Property="Background" Value="White" />
+		<Setter Property="BorderBrush" Value="DarkGray" />
+		<Setter Property="HorizontalContentAlignment" Value="Center"/>
+		<Setter Property="HorizontalAlignment" Value="Stretch"/>
+		<Setter Property="VerticalContentAlignment" Value="Center"/>
+		<Setter Property="VerticalAlignment" Value="Stretch"/>
+		<Setter Property="Margin" Value="0"/>
+	</Style>
+	
+</Styles>
